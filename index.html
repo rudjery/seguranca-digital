@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Segurança Digital na Prática</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container header-content">
+        <h1 class="main-title">Segurança Digital na Prática</h1>
+        <p class="lead">Proteja seu negócio com medidas simples e eficazes.</p>
+    </div>
+  </header>
+
+  <div class="menu-container">
+    <nav class="menu-nav">
+
+      <a href="#home">Início</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Ameaças</button>
+        <div class="dropdown-content">
+          <a href="#estatisticas">Estatísticas</a>
+          <a href="#ameacas">Ameaças Comuns</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Proteção</button>
+        <div class="dropdown-content">
+          <a href="#protecao">Como Proteger</a>
+          <a href="#quiz">Quiz de Segurança</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Mini-curso</button>
+        <div class="dropdown-content">
+          <a href="#minicurso">Assistir Módulos</a>
+          <a href="#recursos">Recursos Úteis</a>
+        </div>
+      </div>
+
+    </nav>
+  </div>
+
+  <main class="container">
+
+    <section id="home" class="hero card hero-row">
+      <div>
+        <h2>Por que a segurança digital importa?</h2>
+
+        <p class="muted">
+          A segurança digital é um elemento fundamental para empresas de qualquer porte, mas pequenas empresas costumam enfrentar desafios maiores devido à limitação de recursos, falta de infraestrutura robusta e menor conhecimento técnico. Este site aborda a relevância da proteção digital para pequenos negócios, evidencia os perigos da falta de atenção ao tema e apresenta soluções práticas para fortalecer a segurança de dados e ativos digitais.
+        </p>
+
+        <p class="muted">
+          Muitas pequenas empresas ainda acreditam que estão “fora do radar” de cibercriminosos por serem menores do que grandes corporações. Na prática, ocorre o inverso: elas são frequentemente alvos preferenciais justamente por apresentarem vulnerabilidades maiores e sistemas menos protegidos. Dados recentes reforçam essa realidade.
+        </p>
+
+        <p class="muted">
+          Uma violação de segurança pode gerar consequências graves, como perda de dados confidenciais, danos à reputação, multas regulatórias, litígios e impactos diretos na operação. Ataques como ransomware podem paralisar totalmente as atividades, causando prejuízos financeiros significativos e enfraquecendo a confiança de clientes e parceiros.
+        </p>
+
+        <p class="muted">
+          Além de prevenir prejuízos financeiros e operacionais, a segurança digital protege a imagem da empresa e contribui para manter a integridade dos clientes ao preservar seus dados com responsabilidade. A proteção não é apenas uma medida técnica, mas também um fator estratégico para a credibilidade e continuidade do negócio.
+        </p>
+
+        <p class="muted">
+          A dimensão do problema no Brasil é alarmante. Segundo relatório da Federação Brasileira de Bancos (Febraban), o país registrou mais de 100 bilhões de tentativas de fraudes digitais apenas em 2022, ocupando a segunda posição na América Latina em volume de ataques. Grande parte desses incidentes envolve pequenas empresas, que se tornam alvos fáceis por não adotarem práticas mínimas de segurança.
+        </p>
+
+        <p class="muted">
+          Diante desse cenário, entender os riscos e adotar medidas simples podem fazer toda a diferença. Este site reúne orientações práticas e acessíveis para ajudar pequenas empresas a fortalecer sua segurança digital de maneira rápida, eficaz e sem exigir conhecimento técnico avançado.
+        </p>
+      </div>
+
+      <aside>
+        <img src="img/img.ilustrativa.png" alt="Ilustração de segurança digital" class="hero-img">
+      </aside>
+    </section>
+
+    <section id="dicas">
+      <h2>Dicas principais</h2>
+      <div class="grid grid-3">
+
+        <div class="card card-hov">
+          <h3>Senhas e autenticação</h3>
+          <p class="muted">Use senhas fortes e ative autenticação em duas etapas (2FA).</p>
+          <ul class="tips small">
+            <li>Evite datas e palavras comuns.</li>
+            <li>Use um gerenciador de senhas.</li>
+            <li>Ative 2FA sempre que possível.</li>
+          </ul>
+        </div>
+
+        <div class="card card-hov">
+          <h3>Backups e atualizações</h3>
+          <p class="muted">Mantenha seus sistemas atualizados e faça backups regulares.</p>
+          <ul class="tips small">
+            <li>Backups semanais.</li>
+            <li>Atualizações automáticas.</li>
+            <li>Armazene cópias fora do computador.</li>
+          </ul>
+        </div>
+
+        <div class="card card-hov">
+          <h3>Prevenção a golpes</h3>
+          <p class="muted">A maioria dos ataques começa por e-mails e links falsos.</p>
+          <ul class="tips small">
+            <li>Cuidado com anexos.</li>
+            <li>Confirme pedidos suspeitos.</li>
+            <li>Evite clicar em links desconhecidos.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="estatisticas" class="card">
+      <h2>Segurança Digital em Números</h2>
+      <p class="muted">Dados reais que mostram a importância da proteção digital.</p>
+
+      <div class="grid grid-3">
+        <div class="estat-card">
+          <h3>95%</h3>
+          <p>Dos ataques começam por erro humano.</p>
+          <span class="fonte">Fonte: IBM Cyber Security Report</span>
+        </div>
+
+        <div class="estat-card">
+          <h3>43%</h3>
+          <p>Dos ataques têm pequenas empresas como alvo.</p>
+          <span class="fonte">Fonte: Verizon Data Breach Report</span>
+        </div>
+
+        <div class="estat-card">
+          <h3>60%</h3>
+          <p>Das PMEs vítimas de ataque fecham em até 6 meses.</p>
+          <span class="fonte">Fonte: NCSA</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="ameacas" class="card">
+      <h2>Ameaças Mais Comuns no Brasil</h2>
+      <p class="muted">Conheça os golpes que mais afetam pequenos negócios.</p>
+
+      <div class="grid grid-3">
+
+        <div class="card card-hov">
+          <h3>Phishing</h3>
+          <p>Mensagens falsas que induzem o usuário ao erro.</p>
+        </div>
+
+        <div class="card card-hov">
+          <h3>Ransomware</h3>
+          <p>Criminosos sequestram seus dados e exigem pagamento.</p>
+        </div>
+
+        <div class="card card-hov">
+          <h3>Engenharia Social</h3>
+          <p>Manipulação psicológica para obter acesso ou dados.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="protecao" class="card">
+      <h2>Como Proteger sua Empresa</h2>
+      <p class="muted">Medidas práticas que qualquer empresa pode implementar.</p>
+
+      <ul class="checklist">
+        <li>✔ Criar senhas fortes e únicas.</li>
+        <li>✔ Ativar autenticação de dois fatores.</li>
+        <li>✔ Realizar backups semanais.</li>
+        <li>✔ Instalar antivírus confiável.</li>
+        <li>✔ Evitar Wi-Fi público sem VPN.</li>
+        <li>✔ Verificar remetentes de e-mail.</li>
+        <li>✔ Proteger WhatsApp Business.</li>
+        <li>✔ Manter dispositivos atualizados.</li>
+      </ul>
+    </section>
+
+    <section id="quiz">
+      <div class="card quiz">
+        <h3>Quiz: o quanto sua empresa está protegida?</h3>
+        <p class="muted small">Responda e descubra onde melhorar.</p>
+
+        <div id="quiz-area"></div>
+
+        <div style="margin-top:12px">
+          <button id="btn-submit" class="btn">Checar Resultado</button>
+          <button id="btn-reset" class="btn btn-secondary">Resetar</button>
+        </div>
+
+        <div id="quiz-result" class="results" style="display:none"></div>
+      </div>
+    </section>
+
+    <section id="recursos" class="card">
+      <h3>Recursos úteis</h3>
+      <p class="muted small">Guias confiáveis para aprofundar o conhecimento.</p>
+      <ul>
+        <li><a href="https://cartilha.cert.br" target="_blank">CERT.br — Cartilha de Segurança</a></li>
+        <li><a href="https://www.sebrae.com.br" target="_blank">SEBRAE — Segurança para Pequenos Negócios</a></li>
+        <li><a href="https://www.kaspersky.com.br/resource-center" target="_blank">Kaspersky — Centro de Recursos</a></li>
+        <li><a href="https://www.microsoft.com/pt-br/security" target="_blank">Microsoft — Segurança Digital</a></li>
+      </ul>
+    </section>
+
+    <section id="minicurso" class="card">
+      <h2>Mini-Curso: Entenda Segurança Digital</h2>
+      <p class="muted">Aprenda conceitos essenciais de forma rápida e simples.</p>
+
+      <div class="grid grid-3">
+
+        <div class="card card-hov">
+          <h3>Módulo 1 — O que é Segurança Digital?</h3>
+          <p>Conceitos fundamentais e princípios básicos.</p>
+          <a class="yt-thumb" href="https://youtu.be/bH7_RdFcBhE" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/bH7_RdFcBhE/hqdefault.jpg" alt="Módulo 1 — O que é Segurança Digital?">
+          </a>
+        </div>
+
+        <div class="card card-hov">
+          <h3>Módulo 2 — Como Funcionam os Golpes?</h3>
+          <p>Phishing, engenharia social, vazamento de dados e ataques reais.</p>
+          <a class="yt-thumb" href="https://youtu.be/s3pcmMHTjzo" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/s3pcmMHTjzo/hqdefault.jpg" alt="Módulo 2 — Como Funcionam os Golpes?">
+          </a>
+        </div>
+
+        <div class="card card-hov">
+          <h3>Módulo 3 — Protegendo sua Empresa</h3>
+          <p>Passos práticos para implementar proteção real.</p>
+          <a class="yt-thumb" href="https://youtu.be/EP4cDuvZrbA" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/EP4cDuvZrbA/hqdefault.jpg" alt="Módulo 3 — Protegendo sua Empresa">
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="margin-top:8px">© Segurança Digital na Prática</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
